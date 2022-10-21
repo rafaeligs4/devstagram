@@ -13,6 +13,7 @@ class LoginController extends Controller
       //dd('autenticando');
      
       $this->validate($request,[
+        
          'email'=>'required|email',
          'password'=>'required'  
       ]);
